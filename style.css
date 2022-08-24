@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(100, 100, 100);
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+}
+
+nav .wrapper{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 250px;
+}
+
+nav .wrapper a {
+    color: aliceblue;
+    margin: auto;
+    height: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    display: inline-flex;
+}
+
+.nav-link{
+    display: inline-flex;
+    padding: 15px 0px;
+    border-radius: 10px;
+    z-index: 999;
+    
+}
+
+.wrapper .nav-link .main-drop :hover {
+    background-color: #2F4F4F;
+    transition: all 0.5s ease;
+}
+
+.wrapper .nav-link .main-drop {
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.nav-link .main-drop {
+    
+    padding: 10px 30px;
+}
+
+.nav-link .main-drop a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link .search input[type=text] {
+    float: left;
+    height: 25px;
+    padding: 5px;
+}
+
+.nav-link .search{
+    margin-top: 10px;
+}
+
+.nav-link .search i {
+    float: right;
+    padding: 5px;
+    height: 25px;
+    background: transparent;
+    color: rgb(100, 100, 100);
+}
+
+
+
+.wrapper .logo{
+    font-size: 35px;
+}
+
+.wrapper .logo img{
+    position: absolute;
+    top: 5px;
+    height: 90px;
+}
+
+.banner {
+    height: 745px;
+    width: 100%;
+    background-size: auto;
+    background-image: url(/Images/background.jpg);
+}
+
+nav .share ul{
+    display: inline-flex;
+    position: absolute;
+    right: 20px;
+    top: 33px;
+    list-style: none;
+}
+
+nav .share ul li {
+    padding: 0px 20px;
+}
+
+
+nav .share ul li i {
+    cursor: pointer;
+}
+
+.nav-link .appliance-drop {
+    font-size: 17px;
+    width: 170px;
+    height: 260px;
+    top: 75px;
+    left: 270px;
+    padding: 10px 0px 0px 15px;
+    line-height: 50px;
+    position: absolute;
+    list-style: none;
+    background: rgb(100, 100, 100);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.wrapper .nav-link :hover .appliance-drop {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+}
+
+.nav-link .appliance-drop :hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-link .appliance-drop a {
+    text-decoration: none;
+    padding: 0px;
+}
+
+.nav-link .fashion-drop {
+    font-size: 15px;
+    width: 199px;
+    position: absolute;
+    align-items: center;
+    left: 440px;
+    top: 75px;
+    height: 370px;
+    color: aliceblue;
+    padding: 0px;
+    line-height: 40px;
+    list-style: none;
+    background: rgb(100, 100, 100);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.wrapper .nav-link :hover .fashion-drop {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+}
+
+.nav-link .electronics-drop {
+    font-size: 15px;
+    width: 150px;
+    position: absolute;
+    align-items: center;
+    left: 615px;
+    top: 75px;
+    height: 380px;
+    color: aliceblue;
+    padding: 0px 0px 0px 10px;
+    line-height: 40px;
+    list-style: none;
+    background: rgb(100, 100, 100);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.wrapper .nav-link :hover .electronics-drop {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+}
+
+.nav-link .contact-drop {
+    font-size: 15px;
+    width: 150px;
+    position: absolute;
+    align-items: center;
+    left: 925px;
+    top: 75px;
+    height: 160px;
+    color: aliceblue;
+    padding: 0px 0px 0px 10px;
+    line-height: 40px;
+    list-style: none;
+    background: rgb(100, 100, 100);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.wrapper .nav-link :hover .contact-drop {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+}
+
+.nav-link .grocery-drop {
+    font-size: 15px;
+    width: 200px;
+    position: absolute;
+    align-items: center;
+    left: 750px;
+    top: 75px;
+    height: 370px;
+    color: aliceblue;
+    padding: 0px 0px 0px 0px;
+    line-height: 40px;
+    list-style: none;
+    background: rgb(100, 100, 100);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.wrapper .nav-link :hover .grocery-drop {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease;
+}
